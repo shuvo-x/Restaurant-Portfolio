@@ -29,7 +29,7 @@ A visually appealing and responsive **Restaurant Portfolio Website** built using
 ## 📸 Screenshots
 
 ![image alt](https://github.com/Arifa96/Restaurant-Portfolio/blob/master/Screenshot%20(2).png?raw=true)
-
+![image alt](https://github.com/Arifa96/Restaurant-Portfolio/blob/master/Screenshot%20(3).png?raw=true)
 ## 🏗️ Installation & Setup
 
 Clone the repository and install dependencies:
