@@ -47,7 +47,7 @@ npm install
 
 Addition information...
 Project Images.
-https://github.com/Arifa96/Restaurant-Portfolio/blob/6b7907db0b822ca49f612fa014a6ae9e004ddecc/Screenshot%20(3).png
+![image alt](https://github.com/Arifa96/Restaurant-Portfolio/blob/6b7907db0b822ca49f612fa014a6ae9e004ddecc/Screenshot%20(3).png)
 
 
 
