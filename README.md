@@ -44,10 +44,9 @@ npm install
 
 
 
+Project Images..
+![image alt](https://github.com/Arifa96/Restaurant-Portfolio/blob/master/Screenshot%20(2).png?raw=true)
 
-Addition information...
-Project Images.
-![image alt](https://github.com/Arifa96/Restaurant-Portfolio/blob/6b7907db0b822ca49f612fa014a6ae9e004ddecc/Screenshot%20(3).png)
 
 
 
