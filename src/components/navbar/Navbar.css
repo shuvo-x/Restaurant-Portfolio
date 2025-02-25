@@ -1,0 +1,181 @@
+.navbar-wrapper{
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../../public/images/gal-2.jpeg'); 
+  position: relative;
+}
+
+
+#nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.logo{
+    width: 50px;
+    display: flex;
+    gap: 8px;
+}
+
+.logo span{
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+}
+
+.logo img{
+    width: 100%;
+    filter: brightness(1); 
+    transition: filter 0.3s ease-in-out;
+}
+
+.nav-item a{
+  text-decoration: none;
+  padding: 10px 22px 10px 22px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-item button{
+  font-size: 12px;
+  padding: 5px 16px 5px 16px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+
+.navbar-wrapper::before{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+ .nav-item a,
+.logo span,
+.nav-item button {
+  color: white; 
+  filter: brightness(0.9); 
+  transition: filter 0.3s ease-in-out;
+}
+
+.transalte{
+  font-size: 12px;
+  border: 1px solid white;
+}
+
+/* Content part... */
+
+
+
+.content {
+  position: absolute;  /* Ensures it is positioned over the background */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(235, 220, 220);
+}
+
+.content h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 0px 10px 0px
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button{
+  padding: 7px 15px 7px 15px;
+  margin: 0px 5px 0px 5px;
+  font-size: 13px;
+}
+
+#button-1{
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+#button-2{
+  background-color: black;
+  color: rgb(233, 214, 214);
+  border: none;
+  border: 1px solid white;
+}
+
+
+.menu-bar{
+  display: none;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+
+    #nav{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 20px 15px 20px;
+    }  
+
+   .menu-bar {
+    display: block;
+   }
+
+   .transalte{
+    display: none;
+   }
+   .nav-item{
+    display: none;
+   }
+   
+}
+
+
+@media (max-width: 413px){
+   .content{
+    width:270px;
+   }
+}
+
+
+#mobile-nav {
+  position: fixed;
+  left: -320px; 
+  top: -10px;
+  width: 300px;
+  height: 100%;
+  transition: left 0.3s ease-out; 
+  z-index: 1000;
+  padding: 20px;
+  margin: 10px 20px 13px 0px;
+  background: rgba(14, 1, 1, 0.8); 
+  backdrop-filter: blur(2px); 
+}
+
+
+#mobile-nav.open {
+  left: 0;
+}
+
+@media (min-width: 1000px) {
+  #mobile-nav {
+    display: none !important;
+  }
+}

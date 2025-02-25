@@ -1,0 +1,41 @@
+.Home-wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 50vh;
+}
+
+.slick-slide div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 2px 5px 2px;
+  }
+  
+  .slick-slide img {
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+
+  @media (max-width:992px){
+    .slick-slide img {
+        width: 150px;
+        height: 150px;
+    }
+  }
+
+  @media (max-width:768px){
+    .slick-slide img {
+        width: 120px;
+        height: 120px;
+    }
+  }
+
+  @media (max-width:413px){
+    .slick-slide img {
+        width: 100px;
+        height: 80px;
+    }
+
+  }
