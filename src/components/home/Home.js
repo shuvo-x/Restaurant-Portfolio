@@ -3,9 +3,12 @@ import Slider from "react-slick";
 import './Home.css';
 import { data } from '../../Data';
 import Content from '../contents/Content';
-import Content2 from '../contents/Content2';
+import { useTranslation } from "react-i18next";
+
 
 const Home = () => {
+  const { t } = useTranslation();
+
   var settings = {
     dots: true,
     infinite: true,
@@ -18,7 +21,7 @@ const Home = () => {
     {/* <Content2 /> */}
     <div className='Home-wrapper'>
       <div className='container'>
-          <h2 style={{textAlign: 'center'}}>Our Menu</h2>
+          <h2 style={{textAlign: 'center'}}>{t("home_menu_title")}</h2>
           <div className='w-3/4 m-auto'>
             <Slider {...settings}>
             {
@@ -47,3 +50,5 @@ const Home = () => {
 }
 
 export default Home
+
+
