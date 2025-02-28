@@ -23,6 +23,8 @@
     transition: all 0.3s ease-in-out;
     width: 650px;
     height: 600px;
+    position: relative;
+    top: 50px;
 }
 
 form{

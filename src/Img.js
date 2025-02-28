@@ -1,4 +1,4 @@
-export const data = [
+export const Menu_img = [
     {
         image:'/images/gal-1.jpeg',
         title: '',
@@ -22,6 +22,15 @@ export const data = [
     {
         image:'/images/gal-6.jpeg',
         title: '',
-    }
+    },
+    {
+        image:'/images/gal-7.jpeg',
+        title: '',
+    },
+    {
+        image:'/images/gal-8.jpeg',
+        title: '',
+    },
+
 ]
 

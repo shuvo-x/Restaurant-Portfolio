@@ -3,6 +3,8 @@
     padding-bottom: 50px;
 }
 
+
+
 .heading-info{
     max-width: 600px;
     text-align: center;
@@ -52,8 +54,16 @@
     #main-content{
         display: grid !important;
     }
+
 }
 
+@media(max-width: 667px){
+     #Child-Wrapper{
+        position: relative;
+        top: 50px;
+      }
+ 
+}
 
 /**/
 
