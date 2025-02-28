@@ -30,6 +30,9 @@
         width: 120px;
         height: 120px;
     }
+    .Home-wrapper{
+      height: 30vh;
+    }
   }
 
   @media (max-width:413px){
