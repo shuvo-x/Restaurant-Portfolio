@@ -1,6 +1,7 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Menu.css';
-import { Menu_img } from '../../Img';
+import { MenuItems } from '../../MenuItems';
 
 
 const Menu = () => {
@@ -10,13 +11,13 @@ const Menu = () => {
         <h2>View Our Menu</h2>
             <div className='row'>
                 {
-                    Menu_img.map((item) => (
+                    MenuItems.map((item) => (
                         <div className='col-md-3'>
                           <div className='card mb-4'>
                           <img src={item.image} className='card-img-top w-100' alt='' />
                           <div className='card-body'>
-                            <h4>{item.title}</h4>
-                            <button id='menu-button'>Learn More</button>
+                            <h5>{item.title}</h5>
+                            <Link to={`/menu/${item.title}`}>Learn More</Link>
                          </div>
                         </div>
                       </div>
