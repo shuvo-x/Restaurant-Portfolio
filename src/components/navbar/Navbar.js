@@ -24,7 +24,7 @@ const Navbar = () => {
         <div id='nav'>
              <div className='logo'>
                <img src={logo} alt='Mailas logo'/>
-                <span>Maila's Kitchen</span>
+                <span to ='/'>Maila's Kitchen</span>
              </div>
              <div className='nav-item'>
                 <Link to='/'>{t("home")}</Link>
